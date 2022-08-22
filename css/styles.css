@@ -1,0 +1,87 @@
+@font-face{
+    font-family: "Roboto Flex";
+    src: url(../fonts/RobotoFlex-Regular.ttf);
+}
+
+*{
+    font-family: "Roboto Flex";
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+}
+
+.left-column{
+    background-color: #3c4043;
+    flex: 35%;
+}
+
+.right-column{
+    background-color: rgb(255, 255, 255);
+}
+
+.cv-name{
+    font-size: 50px;
+    margin: 0% auto;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+
+.top-cv-name{
+    margin-top: 5%;
+}
+
+.cv-occupation-title{
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+
+.cv-profile-title, .cv-experience-title{
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(178, 123, 4);
+}
+
+.cv-profile-description{
+    margin-left: 5%;
+}
+
+.bulleted-list{
+    margin-left: 5%;
+    flex: 5%;
+}
+
+.cv-experience-date{
+    margin-left: 5%;
+    flex: 30%;
+    color: rgb(178, 123, 4);
+}
+
+.cv-experience-content{
+    flex: 65%;
+}
+
+.bulleted-item{
+    background-color: rgb(178, 123, 4);
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    margin-top: 50%;
+}
+
+.cv-experience-employer{
+    color:rgb(73, 73, 73);
+}
+
+.cv-experience-location{
+    color: rgb(100, 100, 100);
+}
+
+.cv-experience-job-description{
+    color: rgb(120, 120, 120);
+}
