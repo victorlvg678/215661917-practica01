@@ -40,7 +40,7 @@
     text-transform: uppercase;
 }
 
-.cv-profile-title, .cv-experience-title{
+.cv-section-title{
     margin-left: 5%;
     text-transform: uppercase;
     font-size: 25px;
@@ -56,13 +56,13 @@
     flex: 5%;
 }
 
-.cv-experience-date{
+.cv-section-date{
     margin-left: 5%;
     flex: 30%;
     color: rgb(178, 123, 4);
 }
 
-.cv-experience-content{
+.cv-section-content{
     flex: 65%;
 }
 
@@ -74,14 +74,14 @@
     margin-top: 50%;
 }
 
-.cv-experience-employer{
+.cv-section-subtitle{
     color:rgb(73, 73, 73);
 }
 
-.cv-experience-location{
+.cv-section-subtitle-location{
     color: rgb(100, 100, 100);
 }
 
-.cv-experience-job-description{
+.cv-section-subtitle-description{
     color: rgb(120, 120, 120);
 }
