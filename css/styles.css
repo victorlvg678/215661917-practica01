@@ -20,11 +20,13 @@ body{
 }
 
 .left-column{
-    background-color: #3c4043;
+    background-color: #1d1e1f;
     flex: 15%;
-    border-top: #3c4043;
+    border-top: #1d1e1f;
     border-right: rgb(178, 123, 4);
-    border-bottom: #3c4043;
+    border-width: 6px;
+    border-bottom: #1d1e1f;
+    border-left: #1d1e1f;
     border-style: solid;
 }
 
@@ -48,6 +50,7 @@ body{
 .cv-occupation-title{
     margin-left: 5%;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .cv-section-title{
@@ -59,6 +62,7 @@ body{
 
 .cv-profile-description{
     margin-left: 5%;
+    font-size: 20px;
 }
 
 .bulleted-list{
@@ -69,6 +73,7 @@ body{
 .cv-section-date{
     flex: 30%;
     color: rgb(178, 123, 4);
+    font-size: 20px;
 }
 
 .cv-section-content{
@@ -85,14 +90,17 @@ body{
 
 .cv-section-subtitle{
     color:rgb(73, 73, 73);
+    font-size: 20px;
 }
 
 .cv-section-subtitle-location{
     color: rgb(100, 100, 100);
+    font-size: 20px;
 }
 
 .cv-section-subtitle-description{
     color: rgb(120, 120, 120);
+    font-size: 20px;
 }
 
 .cv-footer{
@@ -121,4 +129,37 @@ body{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     margin-left: -13%;
     margin-top: -13%;
+}
+
+.cv-section-subtitle-left{
+    color: rgb(120, 120, 120);
+    margin-left: 5%;
+    font-size: 23px;
+}
+
+.cv-section-subtitle-content{
+    margin-left: 5%;
+    color: rgb(160, 158, 158);
+    font-size: 20px;
+}
+
+.cv-section-subtitle-points{
+    margin-left: auto;
+    margin-right: 20%;
+}
+
+.point{
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    transform: translate(10px, 10px);
+    display: inline-block;
+}
+
+.active{
+    background-color: rgb(178, 123, 4);
+}
+
+.inactive{
+    background-color: rgb(120, 120, 120);
 }
