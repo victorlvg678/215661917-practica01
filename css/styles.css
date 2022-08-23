@@ -22,6 +22,10 @@ body{
 .left-column{
     background-color: #3c4043;
     flex: 15%;
+    border-top: #3c4043;
+    border-right: rgb(178, 123, 4);
+    border-bottom: #3c4043;
+    border-style: solid;
 }
 
 .right-column{
@@ -89,4 +93,32 @@ body{
 
 .cv-section-subtitle-description{
     color: rgb(120, 120, 120);
+}
+
+.cv-footer{
+    height: 35px;
+    background-color: rgb(178, 123, 4);
+}
+
+.cv-image-frame{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+    border: rgb(178, 123, 4);
+    border-style: solid;
+    z-index: 100;
+}
+
+.cv-image{
+    width: 250px;
+    height: 250px;
+    top: -15%;
+    transform: rotate(-45deg);
+    z-index: -1;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin-left: -13%;
+    margin-top: -13%;
 }
